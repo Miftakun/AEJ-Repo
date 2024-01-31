@@ -1,4 +1,4 @@
-package Function
+package function
 
 fun helloWorld() {
     println("Hello World")

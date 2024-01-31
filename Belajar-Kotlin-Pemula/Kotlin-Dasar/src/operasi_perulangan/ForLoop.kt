@@ -1,4 +1,4 @@
-package OperasiPerulangan
+package operasi_perulangan
 
 //for loop in array
 fun main() {

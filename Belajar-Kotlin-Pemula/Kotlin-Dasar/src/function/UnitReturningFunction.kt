@@ -1,4 +1,4 @@
-package Function
+package function
 
 //unit tidak mengembalikan data
 fun printHello(){

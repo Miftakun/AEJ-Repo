@@ -1,4 +1,4 @@
-package Function
+package function
 
 fun jumlahkan(a:Int, b:Int): Int{
     val total = a + b

@@ -1,4 +1,4 @@
-package Function
+package function
 
 fun fullName(
     firstName:String,

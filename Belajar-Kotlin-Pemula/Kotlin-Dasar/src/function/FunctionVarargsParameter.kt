@@ -1,4 +1,4 @@
-package Function
+package function
 
 //array
 fun hitungTotal(vararg values: Int): Int { //harus di belakang

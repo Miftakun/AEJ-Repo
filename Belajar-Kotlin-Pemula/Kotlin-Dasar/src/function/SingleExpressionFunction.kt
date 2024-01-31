@@ -1,4 +1,4 @@
-package Function
+package function
 
 fun kaliDua(a: Int) : Int = a * 2
 

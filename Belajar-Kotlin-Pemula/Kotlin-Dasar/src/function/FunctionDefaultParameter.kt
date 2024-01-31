@@ -1,4 +1,4 @@
-package Function
+package function
 
 fun hello(firstName: String, lastName : String? = null){
     if(lastName == null){
