@@ -9,15 +9,15 @@ class Person {
     var lastName: String = ""
 
     fun sayHello(name: String) {
-        println("Hello $name, My Name is $firstName")
+        println("Hello $name, My Name is ${this.firstName}")
     }
 
     fun sayHello(name: Int) {
         println("Hello $name, My Name is $firstName")
     }
 
-    fun sayHello(firstNameParam: String, lastNameParam: String) {
-        println("Hello $firstNameParam, My Name is $lastNameParam, My Name is $firstName")
+    fun sayHello(firstName: String, lastName: String) {
+        println("Hello $firstName, My Name is $lastName, My Name is ${this.firstName}")
     }
 
     fun run(){
