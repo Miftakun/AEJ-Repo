@@ -4,7 +4,13 @@ import src.data.HandPhone
 import src.data.Laptop
 
 fun printObject(any: Any) {
-    println(any)
+    if(any is Laptop){
+        println("Laptop with name ${any.name}")
+    }else if (any is HandPhone) {
+        println("Handphone with name ${any.name}")
+    }else{
+        println(any)
+    }
 }
 fun main() {
     printObject("Niam")
