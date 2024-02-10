@@ -21,7 +21,23 @@ fun printObjectWithWhen(any: Any) {
     }
 }
 
+fun printString(any: Any) {
+    val value = any as String
+    println(value)
+}
+
+fun printStringSafe(any: Any) {
+    val value: String? = any as? String
+    println(value)
+}
+
 fun main() {
+    println("Niam")
+    // println(1) //ERROR
+
+    println("Niam")
+    // println(1) //null
+
     printObjectWithWhen("Niam")
     printObjectWithWhen(1)
     printObjectWithWhen(HandPhone("Samsung"))
